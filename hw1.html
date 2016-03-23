@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+#a{	
+margin-top:10px; 
+margin-left:7%; 
+margin-right:auto;
+}
+#header {
+    float:center;
+}
+
+#section {
+    background-color:#eeeeee;
+    height:1000px;
+    width:300px;
+	position: absolute;
+	top: 320px;
+}
+#nav {
+	height:200px;
+	width:1300px;
+	position: absolute;
+	top: 110px;
+}
+#aside {
+    width:800px;
+	height:1000px;
+   position: absolute;
+	top: 320px;
+	left: 420px;
+}
+#footer { 
+	height:125px;
+	width:1300px;
+	position: absolute;
+	top: 1255px;
+}
+</style>
+</head>
+<body>
+<div id="a">
+<div id="header">
+
+<img src="images/bannertop.gif" alt="bannertop" style="width:1080px;height:100px;">
+<span style="position: absolute; top: 80px; left: 450px;">首頁┆</span>
+<span style="position: absolute; top: 80px; left: 500px;">最新婚紗┆</span>
+<span style="position: absolute; top: 80px; left: 580px;">推薦品牌┆</span>
+<span style="position: absolute; top: 80px; left: 660px;">熱門品牌┆</span>
+<span style="position: absolute; top: 80px; left: 740px;">產品分類┆</span>
+<span style="position: absolute; top: 80px; left: 820px;">用戶中心┆</span>
+<span style="position: absolute; top: 80px; left: 900px;">訂單查詢┆</span>
+<span style="position: absolute; top: 80px; left: 980px;">購物車┆</span>
+</div>
+
+
+
+
+
+<div id="section">
+<img src="images/carttop.jpg" alt="carttop" style="width:270px;height:60px;"><br>
+用戶：遊客，歡迎您<br>
+購物車總計：0元<br>
+去收銀台 清空購物車<br>
+
+<form id="reg" method="post" action="login.php" >
+<img src="images/user.gif" alt="user" style="width:270px;height:60px;"><br>
+ 帳戶:<input type="text" name="name"><br><br>
+ 密碼:<input type="password" name="password"><br><br>
+ 驗證碼:<input type="text" name="check"><br><br>
+  <input type="submit" value="登入"> 註冊  找回密碼 <br>
+ 
+ </form>
+
+<form>
+<img src="images/search.gif" alt="search" style="width:270px;height:60px;"><br>
+	<input type="text">
+    <input type="button" value="搜尋" > <br><br>
+	<input type="button" value="高級" > 
+</form>
+
+
+
+
+
+</div
+<div id="nav">
+<img src="images/bannerleft.gif" alt="bannerleft" style="width:310px;height:200px;top:100px;">
+<img src="images/bannerright.gif" alt="bannerright" style="width:750px;height:200px;position: absolute;left: 400px; ">
+</div>
+
+
+
+
+
+<div id="aside">
+品牌新聞：
+<br>
+
+<span style="position: absolute; top: 100px; left: 80px;">暫無新聞公告!</span>
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 125px; ">
+<span style="position: absolute; top: 125px;left: 20px; ">這是新聞標題一</span>
+
+<img src="images/01.jpg" alt="01" style="width:300px;height:175px;position:absolute;left: 420px;">
+<img src="images/newsright.gif" alt="newsright" style="width:20px;height:175px;position:absolute;left: 725px;">
+<img src="images/newsleft.gif" alt="newsleft" style="width:20px;height:175px;position:absolute;left: 375px;">
+<img src="images/s_1.gif" alt="s1" style="width:20px;height:20px;position:absolute;top: 200px;left: 650px;">
+<img src="images/s_2.gif" alt="s2" style="width:20px;height:20px;position:absolute;top: 200px;left: 675px;">
+<img src="images/s_3.gif" alt="s3" style="width:20px;height:20px;position:absolute;top: 200px;left: 700px;">
+<img src="images/s_4.gif" alt="s4" style="width:20px;height:20px;position:absolute;top: 200px;left: 725px;">
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br>
+
+推薦品牌：
+<br>
+<img src="images/3.jpg" alt="3" style="width:180px;height:205px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 525px; left: 200px;">
+<span style="position: absolute; top: 550px; left: 200px;">市場價：</span>
+<span style="position: absolute; top: 575px; left: 200px;">會員價：</span>
+<span style="position: absolute; top: 600px; left: 200px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 650px;left:200px;">
+<a href="shop.php?Items=1">
+<img src="images/b1.gif" alt="b3" style="width:45px;height:18px;position: absolute;top: 650px;left: 255px;">
+</a>
+<img src="images/4.jpg" alt="4" style="width:180px;height:205px;position: absolute;left: 420px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 525px; left: 625px;">
+<span style="position: absolute; top: 550px; left: 625px;">市場價：</span>
+<span style="position: absolute; top: 575px; left: 625px;">會員價：</span>
+<span style="position: absolute; top: 600px; left: 625px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 650px;left:625px;">
+<a href="shop.php?Items=2">
+<img src="images/b1.gif" alt="b3" style="width:45px;height:18px;position: absolute;top: 650px;left:680px;">
+</a>
+<br>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<br>
+最新婚紗：
+<br>
+
+<img src="images/1.jpg" alt="1" style="width:180px;height:205px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 280px; left: 200px;">
+
+<span style="position: absolute; top: 300px; left: 200px;">市場價：</span>
+<span style="position: absolute; top: 325px; left: 200px;">會員價：</span>
+<span style="position: absolute; top: 350px; left: 200px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 400px;left:200px;">
+<a href="shop.php?Items=3">
+<img src="images/b1.gif" alt="b3" style="width:47px;height:18px;position: absolute;top: 400px;left: 255px;">
+</a>
+<img src="images/2.jpg" alt="2" style="width:180px;height:205px;position: absolute;left: 420px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 280px; left: 625px;">
+<span style="position: absolute; top: 300px; left: 625px;">市場價：</span>
+<span style="position: absolute; top: 325px; left: 625px;">會員價：</span>
+<span style="position: absolute; top: 350px; left: 625px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 400px;left:625px;">
+<a href="shop.php?Items=4">
+<img src="images/b1.gif" alt="b3" style="width:45px;height:18px;position: absolute;top: 400px;left:680px;">
+</a>
+
+<br>
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<br>
+
+熱門品排：
+<br>
+<img src="images/2.jpg" alt="2" style="width:180px;height:205px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 775px; left: 200px;">
+<span style="position: absolute; top: 800px; left: 200px;">市場價：</span>
+<span style="position: absolute; top: 825px; left: 200px;">會員價：</span>
+<span style="position: absolute; top: 850px; left: 200px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 900px;left:200px;">
+<a href="shop.php?Items=5">
+<img src="images/b1.gif" alt="b3" style="width:45px;height:18px;position: absolute;top: 900px;left: 255px;">
+</a>
+<img src="images/4.jpg" alt="4" style="width:180px;height:205px;position: absolute;left: 420px;">
+<img src="images/circle.gif" alt="circle" style="position: absolute; top: 775px; left: 625px;">
+<span style="position: absolute; top: 800px; left: 625px;">市場價：</span>
+<span style="position: absolute; top: 825px; left: 625px;">會員價：</span>
+<span style="position: absolute; top: 850px; left: 625px;">剩餘數量：</span>
+<img src="images/b3.gif" alt="b3" style="width:42px;height:18px;position: absolute;top: 900px;left:625px;">
+<a href="shop.php?Items=6">
+<img src="images/b1.gif" alt="b3" style="width:45px;height:18px;position: absolute;top: 900px;left:680px;">
+</a>
+</div>
+
+
+
+
+<div id="footer">
+<img src="images/bottom.gif" alt="bottom" style="width:1100px;height:100px;">
+</div>
+
+
+
+</div>
+</body>
+</html>
